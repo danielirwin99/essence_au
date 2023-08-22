@@ -1,0 +1,170 @@
+[
+  {
+    "Brand": "Nike",
+    "Name": "Air Jordan 1 Low Bred Toe",
+    "Price": 240,
+    "Gender": "Mens",
+    "Sizing": "US 9",
+    "ReleaseYear": 2023,
+    "OnSale": true
+  },
+  {
+    "Brand": "Adidas",
+    "Name": "Yeezy Boost 350 V2 Zebra",
+    "Price": 220,
+    "Gender": "Mens",
+    "Sizing": "US 10",
+    "ReleaseYear": 2019
+  },
+  {
+    "Brand": "Nike",
+    "Name": "Air Jordan 4 Retro Fire Red",
+    "Price": 250,
+    "Gender": "Mens",
+    "Sizing": "US 11",
+    "ReleaseYear": 2020,
+    "OnSale": true
+  },
+  {
+    "Brand": "Nike",
+    "Name": "Dunk High Retro Panda",
+    "Price": 300,
+    "Gender": "Mens",
+    "Sizing": "US 10.5",
+    "ReleaseYear": 2018,
+    "OnSale": true
+  },
+  {
+    "Brand": "Adidas",
+    "Name": "Yeezy 700 Wave Runner",
+    "Price": 400,
+    "Gender": "Unisex",
+    "Sizing": "US 9",
+    "ReleaseYear": 2023,
+    "OnSale": true
+  },
+  {
+    "Brand": "Nike",
+    "Name": "Air Jordan 6 Retro Cool Grey",
+    "Price": 220,
+    "Gender": "Mens",
+    "Sizing": "US 9.5",
+    "ReleaseYear": 2021
+  },
+  {
+    "Brand": "Adidas",
+    "Name": "Yeezy Boost 700 V2 Mauve",
+    "Price": 550,
+    "Gender": "Unisex",
+    "Sizing": "US 7",
+    "ReleaseYear": 2022
+  },
+  {
+    "Brand": "Nike",
+    "Name": "Dunk Low Retro UNC",
+    "Price": 330,
+    "Gender": "Womens",
+    "Sizing": "US 7.5W",
+    "ReleaseYear": 2020
+  },
+  {
+    "Brand": "Nike",
+    "Name": "Air Jordan 11 Retro Bred",
+    "Price": 450,
+    "Gender": "Mens",
+    "Sizing": "US 13",
+    "ReleaseYear": 2019,
+    "OnSale": true
+  },
+  {
+    "Brand": "Adidas",
+    "Name": "Yeezy Boost 380",
+    "Price": 330,
+    "Gender": "Unisex",
+    "Sizing": "US 11.5",
+    "ReleaseYear": 2021
+  },
+  {
+    "Brand": "Nike",
+    "Name": "Dunk SB Low Polaroid",
+    "Price": 280,
+    "Gender": "Unisex",
+    "Sizing": "US 10.5",
+    "ReleaseYear": 2022
+  },
+  {
+    "Brand": "Nike",
+    "Name": "Air Jordan 3 Retro Fire Red",
+    "Price": 390,
+    "Gender": "Mens",
+    "Sizing": "US 9.5",
+    "ReleaseYear": 2018
+  },
+  {
+    "Brand": "Adidas",
+    "Name": "Yeezy Foam Runner Onyx",
+    "Price": 230,
+    "Gender": "Unisex",
+    "Sizing": "US 10",
+    "ReleaseYear": 2020,
+    "OnSale": true
+  },
+  {
+    "Brand": "Nike",
+    "Name": "Dunk SB High Laser Blue",
+    "Price": 200,
+    "Gender": "Womens",
+    "Sizing": "US 9W",
+    "ReleaseYear": 2023
+  },
+  {
+    "Brand": "Nike",
+    "Name": "Air Jordan 5 Retro University Blue",
+    "Price": 220,
+    "Gender": "Mens",
+    "Sizing": "US 10.5",
+    "ReleaseYear": 2019
+  },
+  {
+    "Brand": "Adidas",
+    "Name": "Yeezy Boost 350 v2 Black",
+    "Price": 580,
+    "Gender": "Mens",
+    "Sizing": "US 9",
+    "ReleaseYear": 2015
+  },
+  {
+    "Brand": "Nike",
+    "Name": "Air Jordan 1 Mid Stealth",
+    "Price": 270,
+    "Gender": "Womens",
+    "Sizing": "US 8.5W",
+    "ReleaseYear": 2021
+  },
+  {
+    "Brand": "Nike",
+    "Name": "Air Jordan 1 Retro High UNC",
+    "Price": 610,
+    "Gender": "Mens",
+    "Sizing": "US 9.5",
+    "ReleaseYear": 2014,
+    "OnSale": true
+  },
+  {
+    "Brand": "Adidas",
+    "Name": "Yeezy Slide Pure",
+    "Price": 250,
+    "Gender": "Mens",
+    "Sizing": "US 10",
+    "ReleaseYear": 2021
+  },
+  {
+    "Brand": "Nike",
+    "Name": "Dunk Low Light Smoke Grey ",
+    "Price": 250,
+    "Gender": "Womens",
+    "Sizing": "US 8W",
+    "ReleaseYear": 2023,
+    "OnSale": true
+  }
+]

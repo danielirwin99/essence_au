@@ -5,9 +5,9 @@ import Grow from "@mui/material/Grow";
 import Paper from "@mui/material/Paper";
 import Popper from "@mui/material/Popper";
 import Stack from "@mui/material/Stack";
-import { GiHamburgerMenu } from "react-icons/gi";
+import { Link } from "react-router-dom";
 
-export default function Hamburger() {
+export default function BestSellers() {
   const [open, setOpen] = React.useState(false);
   const anchorRef = React.useRef(null);
 
@@ -43,23 +43,16 @@ export default function Hamburger() {
   }, [open]);
 
   return (
-    <Stack direction="row" style={{ zIndex: "999" }} className="!p-0 -ml-2">
-      <div >
-        <Button
-          ref={anchorRef}
-          aria-controls={open ? "composition-menu" : undefined}
-          aria-expanded={open ? "true" : undefined}
-          aria-haspopup="true"
-          onClick={handleToggle}
-          className="!px-0"
-        >
-          <GiHamburgerMenu className="text-white h-8 w-8 mt-1" />
+    <Stack direction="row" style={{ zIndex: "999" }}>
+      <div>
+        <Button ref={anchorRef} onClick={handleToggle} className="!px-0">
+          <h1 className="navBar__headers">Best Sellers</h1>
         </Button>
         <Popper
+          style={{ marginTop: "5px" }}
           className="z-999"
           open={open}
           anchorEl={anchorRef.current}
-          role={undefined}
           placement="bottom-start"
           transition
           disablePortal
@@ -72,7 +65,7 @@ export default function Hamburger() {
                   placement === "bottom-start" ? "left top" : "left bottom",
               }}
             >
-              <Paper>
+              <Paper style={{ marginTop: "5px" }}>
                 <ClickAwayListener onClickAway={handleClose}>
                   <ul
                     className="flex flex-col py-3 mx-7"
@@ -81,27 +74,34 @@ export default function Hamburger() {
                     aria-labelledby="composition-button"
                     onKeyDown={handleListKeyDown}
                   >
-                    <a
+                    <Link
                       className="hamburger-link"
                       href="#about"
                       onClick={handleClose}
                     >
-                      About
-                    </a>
-                    <a
+                      Air Jordans
+                    </Link>
+                    <Link
                       className="hamburger-link"
                       href="#services"
                       onClick={handleClose}
                     >
-                      Services
-                    </a>
-                    <a
+                      Yeezys
+                    </Link>
+                    <Link
                       className="hamburger-link"
                       href="#quotes"
                       onClick={handleClose}
                     >
-                      Contact
-                    </a>
+                      Dunks
+                    </Link>
+                    <Link
+                      className="hamburger-link"
+                      href="#quotes"
+                      onClick={handleClose}
+                    >
+                      New Balance
+                    </Link>
                   </ul>
                 </ClickAwayListener>
               </Paper>
