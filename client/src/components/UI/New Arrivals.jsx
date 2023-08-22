@@ -45,7 +45,7 @@ export default function NewArrivals() {
   return (
     <Stack direction="row" style={{ zIndex: "999" }}>
       <div>
-        <Button ref={anchorRef} onClick={handleToggle} className="!px-0">
+        <Button ref={anchorRef} onClick={handleToggle} className="!px-0 !bg-transparent">
           <h1 className="navBar__headers">New Arrivals</h1>
         </Button>
         <Popper
