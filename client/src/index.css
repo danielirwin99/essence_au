@@ -1,0 +1,73 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Merriweather Sans", -apple-system, BlinkMacSystemFont,
+    "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif,
+    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-shadow: none;
+  text-rendering: optimizeLegibility;
+}
+
+html {
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+.navBar__headers {
+  @apply text-lg lg:text-xl font-bold cursor-pointer hover:opacity-30 text-white;
+}
+.loadMore {
+  @apply bg-blue-600/80 font-bold text-white text-lg w-40 py-2 px-3 rounded-xl mt-5 hover:opacity-80 active:opacity-100;
+}
+
+.container {
+  @apply max-w-5xl mx-auto;
+}
+
+.footerLink {
+  @apply font-semibold text-sm py-2 px-5 text-white hover:underline cursor-not-allowed;
+}
+
+.footerHeader {
+  @apply text-lg font-bold underline text-white px-5;
+}
+
+.footerSocial {
+  @apply text-white py-2 text-xl cursor-not-allowed hover:scale-110 transition-all duration-150;
+}
+
+.testContainer {
+  @apply flex justify-center text-center items-center my-20;
+}
+
+.testBox {
+  @apply flex flex-col items-center justify-center md:p-5 h-full max-h-[500px] w-1/2 lg:w-[calc(100%/3)];
+}
+
+/* .testSneakerContainer {
+      @apply ;
+    } */
+
+.testSneaker {
+  @apply h-[350px] rounded-sm object-cover;
+}
+
+.testInitials {
+  @apply flex items-center mt-[-40px] justify-center h-12 w-12 py-2 bg-gray-300 rounded-[50%];
+}
+
+.hamburger-link {
+  @apply py-2 text-lg font-bold duration-100 ease-in hover:text-cyan-500 text-black;
+}
