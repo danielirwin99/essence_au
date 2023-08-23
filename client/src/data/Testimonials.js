@@ -25,7 +25,7 @@ export const testimonial = [
   },
   {
     initials: "JP",
-    name: "John Bill",
+    name: "Jake Proudscott",
     date: "25/2/2023",
     description: "Will be shopping here again no problem.",
     image:

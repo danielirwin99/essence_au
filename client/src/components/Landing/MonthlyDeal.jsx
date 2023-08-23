@@ -7,7 +7,9 @@ const MonthlyDeal = () => {
     <section className="flex flex-col items-center  max-w-4 mx-auto mb-10">
       <div className="text-center">
         <div className="mb-20">
-          <h2 className=" font-semibold text-md text-gray-500 tracking-widest">OUR PICK</h2>
+          <h2 className=" font-semibold text-md text-gray-500 tracking-widest">
+            OUR PICK
+          </h2>
           <h1 className="font-bold text-3xl lg:text-4xl mt-1 text-black tracking-widest">
             Sneaker of the Month
           </h1>
@@ -44,10 +46,10 @@ const MonthlyDeal = () => {
             <div className="my-2">
               <SizeMenu />
             </div>
-            <button className="py-2 px-4 rounded-sm bg-black/10 tracking-[0.15rem] font-bold w-[47.5%] hover:opacity-70 transition-all duration-150 ease-in">
+            <button className="py-2 px-4 active:bg-black rounded-sm bg-black/10 tracking-[0.15rem] font-bold w-[47.5%] hover:opacity-70 transition-all duration-100 ease-in">
               ADD TO CART
             </button>
-            <button className="py-2 px-4 rounded-sm bg-black text-white tracking-[0.15rem] font-bold w-[47.5%] mt-2 hover:opacity-70 ">
+            <button className="py-2 px-4 rounded-sm active:bg-white bg-black text-white tracking-[0.15rem] font-bold w-[47.5%] mt-2 hover:opacity-70 duration-100 ease-in ">
               BUY NOW
             </button>
             <h2 className="mt-3 border-b border-black cursor-not-allowed ">

@@ -13,12 +13,12 @@ const Navbar = () => {
     <nav className="sticky z-[999] top-0 w-full h-20 bg-[#111] flex items-center justify-between px-4 sm:px-8">
       <div className="flex items-center justify-center space-x-5 ">
         <Link className="flex items-center justify-center" href="/">
-          <h1 className="text-white text-2xl mr-5 lg:mr-0 lg:text-4xl tracking-wider font-bold text-shadowWhite">
+          <h1 className="text-white text-2xl mr-5 lg:mr-0 xl:text-4xl tracking-wider font-bold text-shadowWhite">
             EssenceAu
           </h1>
         </Link>
       </div>
-      <div className="items-center hidden md:flex space-x-14 pt-1 mr-0 xl:mr-10 ml-14 lg:ml-0 transition-all duration-300 ease-in">
+      <div className="items-center justify-center hidden lg:flex space-x-14 pt-1 mr-0 ml-14 lg:ml-0 transition-all duration-300 ease-in">
         <div>
           <Sneakers />
         </div>
@@ -29,7 +29,7 @@ const Navbar = () => {
           <BestSellers />
         </div>
 
-        <Link href="/about">
+        <Link to="/about">
           <h1 className="navBar__headers hidden xl:inline">ABOUT</h1>
         </Link>
       </div>
@@ -46,11 +46,11 @@ const Navbar = () => {
             </button>
           </li>
           <li>
-            <Link href="/cart">
+            <Link to="/cart">
               <BiShoppingBag className=" h-7 w-7 md:h-8 md:w-8 text-white" />
             </Link>
           </li>
-          <li className="flex md:hidden">
+          <li className="flex lg:hidden">
             <button>
               <BurgerBar className=" h-7 w-7 md:h-8 md:w-8 text-white" />
             </button>
