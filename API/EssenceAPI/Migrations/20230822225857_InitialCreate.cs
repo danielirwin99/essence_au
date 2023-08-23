@@ -22,7 +22,8 @@ namespace EssenceAPI.Migrations
                     Gender = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     Sizing = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     OnSale = table.Column<bool>(type: "bit", nullable: false),
-                    ReleaseYear = table.Column<int>(type: "int", nullable: false)
+                    ReleaseYear = table.Column<int>(type: "int", nullable: false),
+                    Photo = table.Column<string>(type: "nvarchar(max)", nullable: false)
                 },
                 constraints: table =>
                 {

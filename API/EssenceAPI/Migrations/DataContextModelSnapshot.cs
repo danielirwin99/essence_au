@@ -44,6 +44,10 @@ namespace EssenceAPI.Migrations
                     b.Property<bool>("OnSale")
                         .HasColumnType("bit");
 
+                    b.Property<string>("Photo")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<int>("Price")
                         .HasColumnType("int");
 

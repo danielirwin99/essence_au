@@ -11,7 +11,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace EssenceAPI.Migrations
 {
     [DbContext(typeof(DataContext))]
-    [Migration("20230822060919_InitialCreate")]
+    [Migration("20230822225857_InitialCreate")]
     partial class InitialCreate
     {
         /// <inheritdoc />
@@ -46,6 +46,10 @@ namespace EssenceAPI.Migrations
 
                     b.Property<bool>("OnSale")
                         .HasColumnType("bit");
+
+                    b.Property<string>("Photo")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<int>("Price")
                         .HasColumnType("int");

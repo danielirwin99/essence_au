@@ -12,5 +12,6 @@ namespace EssenceAPI.Models
         public string Sizing { get; set; } = string.Empty;
         public bool OnSale { get; set; } = false;
         public int ReleaseYear { get; set; }
+        public string Photo { get; set; } = string.Empty;
     }
 }
