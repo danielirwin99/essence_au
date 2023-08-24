@@ -54,6 +54,10 @@ namespace EssenceAPI.Migrations
                     b.Property<int>("ReleaseYear")
                         .HasColumnType("int");
 
+                    b.Property<string>("SKU")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<string>("Sizing")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");

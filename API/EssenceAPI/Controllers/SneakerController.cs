@@ -16,9 +16,8 @@ namespace EssenceAPI.Controllers
         }
 
         [HttpGet]
-        public async Task<ActionResult<List<Sneaker>>> GetAllSneakers()
+        public async Task<ActionResult<List<Sneaker>>> GetAllSneakers([FromQuery] string brand = "All")
         {
-
             var result = await _sneakerService.GetAllSneakers();
 
             return Ok(result);

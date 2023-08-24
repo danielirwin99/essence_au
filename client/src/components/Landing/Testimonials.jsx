@@ -15,8 +15,8 @@ const Testimonials = () => {
           nav={true}
           dots={false}
           responsive={{
-            0: {
-              items: 2,
+            250: {
+              items: 1,
             },
             500: {
               items: 1,
@@ -51,7 +51,6 @@ const Testimonials = () => {
             </div>
           ))}
         </OwlCarousel>
-        
       </div>
     </section>
   );

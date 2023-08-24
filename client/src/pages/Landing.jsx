@@ -9,7 +9,6 @@ import Testimonials from "../components/Landing/Testimonials";
 const Landing = () => {
   return (
     <>
-      <Navbar />
       <Header />
       <Hot />
       <Authenticity />

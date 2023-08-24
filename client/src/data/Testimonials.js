@@ -31,4 +31,13 @@ export const testimonial = [
     image:
       "https://images.unsplash.com/photo-1605983721413-99266a61f830?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=735&q=80.",
   },
+  {
+    initials: "TF",
+    name: "Tom Fitzgerald",
+    date: "7/3/2023",
+    description:
+      "Fantastic pair, so happy with the way they look. EssenceAu is my No.1 store now.",
+    image:
+      "https://images.unsplash.com/photo-1513531926349-466f15ec8cc7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80.",
+  },
 ];

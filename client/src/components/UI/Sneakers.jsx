@@ -45,7 +45,11 @@ export default function Sneakers() {
   return (
     <Stack direction="row" style={{ zIndex: "999" }}>
       <div>
-        <Button ref={anchorRef} onClick={handleToggle} className="!px-0 !bg-transparent">
+        <Button
+          ref={anchorRef}
+          onClick={handleToggle}
+          className="!px-0 !bg-transparent"
+        >
           <h1 className="navBar__headers">Sneakers</h1>
         </Button>
         <Popper
@@ -76,31 +80,31 @@ export default function Sneakers() {
                   >
                     <Link
                       className="hamburger-link"
-                      href="#about"
+                      to="/categories/nike"
                       onClick={handleClose}
                     >
-                      Air Jordans
+                      Nike
                     </Link>
                     <Link
                       className="hamburger-link"
-                      href="#services"
+                      to="/categories/adidas"
                       onClick={handleClose}
                     >
-                      Yeezys
+                      Adidas
                     </Link>
                     <Link
                       className="hamburger-link"
-                      href="#quotes"
-                      onClick={handleClose}
-                    >
-                      Dunks
-                    </Link>
-                    <Link
-                      className="hamburger-link"
-                      href="#quotes"
+                      to="/categories/new-balance"
                       onClick={handleClose}
                     >
                       New Balance
+                    </Link>
+                    <Link
+                      className="hamburger-link"
+                      to="/categories/puma"
+                      onClick={handleClose}
+                    >
+                      Puma
                     </Link>
                   </ul>
                 </ClickAwayListener>

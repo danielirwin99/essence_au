@@ -12,7 +12,7 @@ const Navbar = () => {
   return (
     <nav className="sticky z-[999] top-0 w-full h-20 bg-[#111] flex items-center justify-between px-4 sm:px-8">
       <div className="flex items-center justify-center space-x-5 ">
-        <Link className="flex items-center justify-center" href="/">
+        <Link to={"/"} className="flex items-center justify-center" href="/">
           <h1 className="text-white text-2xl mr-5 lg:mr-0 xl:text-4xl tracking-wider font-bold text-shadowWhite">
             EssenceAu
           </h1>

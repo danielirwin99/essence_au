@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 const Header = () => {
   return (
     <>
-      <header className="h-[calc(100vh-80px)] relative ">
+      <header className="heightPort relative">
         {/* FIXED BUTTON */}
         <div className="absolute w-full h-full -z-10">
           <img

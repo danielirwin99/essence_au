@@ -8,13 +8,12 @@ const Hot = () => {
 
   async function getSneakers() {
     const { data } = await axios.get(`${baseUrl}/Sneaker`);
-    console.log(data);
     setSneakers(data);
   }
 
   useEffect(() => {
     getSneakers();
-  },[]);
+  }, []);
 
   return (
     <section
@@ -36,16 +35,16 @@ const Hot = () => {
               key={index}
             >
               <Link to={`/sneaker/${sneaker.id}`}>
-                <h1 className="my-5 font-bold text-lg text-start lg:text-center h-10 capitalize">
-                  {sneaker.brand}&nbsp;<span>{sneaker.name}</span>
-                </h1>
-                <figure className="flex items-end mt-5 transition-all duration-150 hover:scale-105 ease-in-out">
+                <figure className="flex items-end mt-5 ">
                   <img
-                    className=" w-full h-40  object-contain"
+                    className=" w-full h-40 object-contain !flip-image"
                     src={sneaker.photo}
                     alt="Sneaker Items"
                   />
                 </figure>
+                <h1 className="my-5 font-bold text-lg text-start lg:text-center capitalize">
+                  {sneaker.brand}&nbsp;<span>{sneaker.name}</span>
+                </h1>
               </Link>
             </li>
           ))}

@@ -45,7 +45,11 @@ export default function NewArrivals() {
   return (
     <Stack direction="row" style={{ zIndex: "999" }}>
       <div>
-        <Button ref={anchorRef} onClick={handleToggle} className="!px-0 !bg-transparent">
+        <Button
+          ref={anchorRef}
+          onClick={handleToggle}
+          className="!px-0 !bg-transparent"
+        >
           <h1 className="navBar__headers">New Arrivals</h1>
         </Button>
         <Popper
@@ -96,11 +100,11 @@ export default function NewArrivals() {
                       Youth
                     </Link>
                     <Link
-                      className="hamburger-link"
+                      className="hamburger-link cursor-not-allowed"
                       href="#quotes"
                       onClick={handleClose}
                     >
-                      New Balance
+                      Infants
                     </Link>
                   </ul>
                 </ClickAwayListener>

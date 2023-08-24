@@ -11,7 +11,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace EssenceAPI.Migrations
 {
     [DbContext(typeof(DataContext))]
-    [Migration("20230822225857_InitialCreate")]
+    [Migration("20230823035527_InitialCreate")]
     partial class InitialCreate
     {
         /// <inheritdoc />
@@ -56,6 +56,10 @@ namespace EssenceAPI.Migrations
 
                     b.Property<int>("ReleaseYear")
                         .HasColumnType("int");
+
+                    b.Property<string>("SKU")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Sizing")
                         .IsRequired()

@@ -6,6 +6,7 @@
     "Gender": "Mens",
     "Sizing": "US 9",
     "ReleaseYear": 2023,
+    "SKU": "N123456",
     "OnSale": true,
     "Photo": "https://image.goat.com/transform/v1/attachments/product_template_additional_pictures/images/063/257/275/original/837275_01.jpg.jpeg?action=crop&width=1000"
   },
@@ -16,6 +17,7 @@
     "Gender": "Mens",
     "Sizing": "US 10",
     "ReleaseYear": 2019,
+    "SKU": "A7890123",
     "Photo": "https://image.goat.com/transform/v1/attachments/product_template_additional_pictures/images/089/144/518/original/1213726_01.jpg.jpeg?action=crop&width=1000"
   },
   {
@@ -25,6 +27,7 @@
     "Gender": "Mens",
     "Sizing": "US 11",
     "ReleaseYear": 2020,
+    "SKU": "N345678",
     "OnSale": true,
     "Photo": "https://image.goat.com/transform/v1/attachments/product_template_additional_pictures/images/046/247/197/original/612313_01.jpg.jpeg?action=crop&width=1000"
   },
@@ -35,6 +38,7 @@
     "Gender": "Mens",
     "Sizing": "US 10.5",
     "ReleaseYear": 2018,
+    "SKU": "N456789",
     "OnSale": true,
     "Photo": "https://image.goat.com/transform/v1/attachments/product_template_additional_pictures/images/059/759/016/original/789240_01.jpg.jpeg?action=crop&width=1000"
   },
@@ -45,6 +49,7 @@
     "Gender": "Unisex",
     "Sizing": "US 9",
     "ReleaseYear": 2015,
+    "SKU": "A123456",
     "OnSale": true,
     "Photo": "https://image.goat.com/transform/v1/attachments/product_template_additional_pictures/images/067/602/855/original/195483_01.jpg.jpeg?action=crop&width=1000"
   },
@@ -54,6 +59,7 @@
     "Price": 320,
     "Gender": "Mens",
     "Sizing": "US 9.5",
+    "SKU": "N567890",
     "ReleaseYear": 2021,
     "Photo": "https://image.goat.com/transform/v1/attachments/product_template_additional_pictures/images/084/409/677/original/1103091_01.jpg.jpeg?action=crop&width=1000"
   },
@@ -64,6 +70,7 @@
     "Gender": "Unisex",
     "Sizing": "US 7",
     "ReleaseYear": 2022,
+    "SKU": "A234567",
     "Photo": "https://image.goat.com/transform/v1/attachments/product_template_additional_pictures/images/079/010/954/original/386481_01.jpg.jpeg?action=crop&width=1000"
   },
   {
@@ -73,6 +80,7 @@
     "Gender": "Youth",
     "Sizing": "US 7.5Y",
     "ReleaseYear": 2020,
+    "SKU": "N678901",
     "Photo": "https://image.goat.com/transform/v1/attachments/product_template_additional_pictures/images/054/789/465/original/747562_01.jpg.jpeg?action=crop&width=1000"
   },
   {
@@ -82,6 +90,7 @@
     "Gender": "Mens",
     "Sizing": "US 13",
     "ReleaseYear": 2019,
+    "SKU": "N789012",
     "OnSale": true,
     "Photo": "https://image.goat.com/transform/v1/attachments/product_template_additional_pictures/images/047/069/784/original/478948_01.jpg.jpeg?action=crop&width=1000"
   },
@@ -92,6 +101,7 @@
     "Gender": "Youth",
     "Sizing": "US 11.5",
     "ReleaseYear": 2021,
+    "SKU": "A345678",
     "Photo": "https://image.goat.com/transform/v1/attachments/product_template_additional_pictures/images/079/484/641/original/538598_01.jpg.jpeg?action=crop&width=1000"
   },
   {
@@ -101,6 +111,7 @@
     "Gender": "Unisex",
     "Sizing": "US 10.5",
     "ReleaseYear": 2022,
+    "SKU": "N890123",
     "Photo": "https://image.goat.com/transform/v1/attachments/product_template_additional_pictures/images/069/987/471/original/915191_01.jpg.jpeg?action=crop&width=1000"
   },
   {
@@ -110,6 +121,7 @@
     "Gender": "Mens",
     "Sizing": "US 9.5",
     "ReleaseYear": 2018,
+    "SKU": "N012345",
     "Photo": "https://image.goat.com/transform/v1/attachments/product_template_additional_pictures/images/075/209/346/original/942086_01.jpg.jpeg?action=crop&width=1000"
   },
   {
@@ -118,6 +130,7 @@
     "Price": 230,
     "Gender": "Unisex",
     "Sizing": "US 10",
+    "SKU": "A456789",
     "ReleaseYear": 2020,
     "OnSale": true,
     "Photo": "https://image.goat.com/transform/v1/attachments/product_template_additional_pictures/images/069/879/091/original/907868_01.jpg.jpeg?action=crop&width=1000"
@@ -129,6 +142,7 @@
     "Gender": "Womens",
     "Sizing": "US 9W",
     "ReleaseYear": 2023,
+    "SKU": "N234567",
     "Photo": "https://image.goat.com/transform/v1/attachments/product_template_additional_pictures/images/071/333/089/original/920858_01.jpg.jpeg?action=crop&width=1000"
   },
   {
@@ -138,6 +152,7 @@
     "Gender": "Mens",
     "Sizing": "US 10.5",
     "ReleaseYear": 2019,
+    "SKU": "N678901",
     "Photo": "https://image.goat.com/transform/v1/attachments/product_template_additional_pictures/images/082/754/093/original/1081516_01.jpg.jpeg?action=crop&width=1000"
   },
   {
@@ -147,6 +162,7 @@
     "Gender": "Mens",
     "Sizing": "US 9",
     "ReleaseYear": 2015,
+    "SKU": "A567890",
     "Photo": "https://image.goat.com/transform/v1/attachments/product_template_additional_pictures/images/079/308/610/original/505488_01.jpg.jpeg?action=crop&width=1000"
   },
   {
@@ -156,6 +172,7 @@
     "Gender": "Womens",
     "Sizing": "US 8.5W",
     "ReleaseYear": 2021,
+    "SKU": "N345678",
     "Photo": "https://image.goat.com/transform/v1/attachments/product_template_additional_pictures/images/080/298/093/original/1056097_01.jpg.jpeg?action=crop&width=1000"
   },
   {
@@ -165,6 +182,7 @@
     "Gender": "Mens",
     "Sizing": "US 9.5",
     "ReleaseYear": 2014,
+    "SKU": "N456789",
     "OnSale": true,
     "Photo": "https://image.goat.com/transform/v1/attachments/product_template_additional_pictures/images/090/732/810/original/1145907_01.jpg.jpeg?action=crop&width=1000"
   },
@@ -174,6 +192,7 @@
     "Price": 250,
     "Gender": "Mens",
     "Sizing": "US 10",
+    "SKU": "A678901",
     "ReleaseYear": 2021,
     "Photo": "https://image.goat.com/transform/v1/attachments/product_template_additional_pictures/images/072/273/712/original/815559_01.jpg.jpeg?action=crop&width=1000"
   },
@@ -185,6 +204,7 @@
     "Sizing": "US 8W",
     "ReleaseYear": 2023,
     "OnSale": true,
+    "SKU": "N789012",
     "Photo": "https://image.goat.com/transform/v1/attachments/product_template_additional_pictures/images/075/002/736/original/952292_01.jpg.jpeg?action=crop&width=1000"
   }
 ]

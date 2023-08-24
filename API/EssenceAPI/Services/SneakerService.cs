@@ -1,4 +1,5 @@
 
+using AutoMapper;
 using EssenceAPI.Data;
 using EssenceAPI.Models;
 using Microsoft.EntityFrameworkCore;
@@ -40,6 +41,7 @@ namespace EssenceAPI.Services
         public async Task<List<Sneaker>> GetAllSneakers()
         {
             var sneakers = await _context.Sneakers.ToListAsync();
+            
 
             return sneakers;
         }

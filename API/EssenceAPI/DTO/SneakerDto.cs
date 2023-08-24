@@ -1,8 +1,7 @@
 
-
-namespace EssenceAPI.Models
+namespace EssenceAPI.DTO
 {
-    public class Sneaker
+    public class SneakerDto
     {
         public int Id { get; set; }
         public string Brand { get; set; } = string.Empty;

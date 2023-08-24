@@ -23,6 +23,7 @@ namespace EssenceAPI.Migrations
                     Sizing = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     OnSale = table.Column<bool>(type: "bit", nullable: false),
                     ReleaseYear = table.Column<int>(type: "int", nullable: false),
+                    SKU = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     Photo = table.Column<string>(type: "nvarchar(max)", nullable: false)
                 },
                 constraints: table =>

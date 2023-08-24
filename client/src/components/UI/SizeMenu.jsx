@@ -7,7 +7,7 @@ import Select, { SelectChangeEvent } from '@mui/material/Select';
 export default function SizeMenu() {
   const [age, setAge] = React.useState('');
 
-  const handleChange = (event: SelectChangeEvent) => {
+  const handleChange = ( event) => {
     setAge(event.target.value);
   };
 

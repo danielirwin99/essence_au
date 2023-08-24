@@ -20,6 +20,10 @@ html {
   overflow-x: hidden;
 }
 
+.heightPort {
+  height: calc(100vh - 80px);
+}
+
 /* width */
 ::-webkit-scrollbar {
   width: 10px;
@@ -32,22 +36,21 @@ html {
 }
 
 .navBar__headers {
-  @apply text-sm xl:text-xl font-bold cursor-pointer hover:text-cyan-500 text-white;
+  @apply text-sm xl:text-lg font-bold cursor-pointer hover:text-cyan-500 text-white;
 }
 .loadMore {
   @apply bg-blue-600/80 font-bold text-white text-lg w-40 py-2 px-3 rounded-xl mt-5 hover:opacity-80 active:opacity-100;
 }
-
-.footerLink {
-  @apply font-semibold text-sm py-2 px-5 text-white hover:underline cursor-not-allowed;
+.footerHeader {
+  @apply lg:text-lg text-sm font-bold underline text-white px-5 mb-2;
 }
 
-.footerHeader {
-  @apply text-lg font-bold underline text-white px-5;
+.footerLink {
+  @apply font-semibold text-xs md:text-sm py-2 px-5 text-white hover:underline;
 }
 
 .footerSocial {
-  @apply text-white py-2 text-xl cursor-not-allowed hover:scale-110 transition-all duration-150;
+  @apply text-white py-2 text-base md:text-xl cursor-not-allowed hover:scale-110 transition-all duration-150;
 }
 
 .testContainer {
@@ -59,7 +62,7 @@ html {
 }
 
 .testSneaker {
-  @apply h-[350px] w-full rounded-sm object-cover xl:p-2;
+  @apply h-[350px] w-full rounded-sm object-cover;
 }
 
 .testInitials {
@@ -69,10 +72,6 @@ html {
 .hamburger-link {
   @apply py-2 text-lg font-extrabold duration-100 ease-in hover:text-cyan-500 text-black;
 }
-
-
-
-
 
 /*  */
 .text-shadow {
@@ -117,4 +116,19 @@ html {
   height: 50px !important;
   padding-bottom: 18px !important;
   font-size: 64px;
+}
+
+.stock {
+  animation: pulse 1500ms 400ms ease-in-out;
+  animation-timing-function: ease-in-out;
+  -webkit-animation-timing-function: ease-in-out;
+}
+
+@keyframes pulse {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 100%;
+  }
 }

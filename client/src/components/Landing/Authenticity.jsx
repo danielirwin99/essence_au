@@ -16,12 +16,12 @@ const Authenticity = () => {
           <h2 className="mt-5 lg:mt-10 font-semibold text-gray-700">
             Have any doubts?
             <br /> Feel free to{" "}
-            <Link to="/contact">
+            <Link to="/contact-us">
               <span className="text-blue-600 hover:opacity-80">Contact Us</span>
             </Link>{" "}
             directly.
           </h2>
-          <Link href="/contact">
+          <Link to="/contact-us">
             <button className="loadMore">Contact Now</button>
           </Link>
         </div>
