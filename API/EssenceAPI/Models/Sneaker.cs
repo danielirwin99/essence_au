@@ -1,5 +1,6 @@
 
 
+
 namespace EssenceAPI.Models
 {
     public class Sneaker

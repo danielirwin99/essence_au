@@ -1,3 +1,5 @@
+using AutoMapper;
+using EssenceAPI.DTO;
 using EssenceAPI.Models;
 using EssenceAPI.Services;
 using Microsoft.AspNetCore.Mvc;
@@ -9,18 +11,34 @@ namespace EssenceAPI.Controllers
     public class SneakerController : ControllerBase
     {
         private readonly ISneakerService _sneakerService;
-        public SneakerController(ISneakerService sneakerService)
+        private readonly IMapper _mapper;
+        public SneakerController(ISneakerService sneakerService, IMapper mapper)
         {
+            _mapper = mapper;
             _sneakerService = sneakerService;
 
         }
 
         [HttpGet]
-        public async Task<ActionResult<List<Sneaker>>> GetAllSneakers([FromQuery] string brand = "All")
+        public async Task<ActionResult<List<Sneaker>>> GetAllSneakers()
         {
             var result = await _sneakerService.GetAllSneakers();
 
-            return Ok(result);
+            var sneakersToReturn = _mapper.Map<List<Sneaker>>(result);
+
+
+            return Ok(sneakersToReturn);
+
+        }
+        [HttpGet]
+        public async Task<ActionResult<List<Sneaker>>> GetByBrand([FromQuery] string brand)
+        {
+            var result = await _sneakerService.GetBrand(brand);
+
+            var sneakersToReturn = _mapper.Map<List<Sneaker>>(result);
+
+
+            return Ok(sneakersToReturn);
 
         }
         [HttpGet("{id}")]

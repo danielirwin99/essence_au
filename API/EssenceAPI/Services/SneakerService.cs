@@ -1,7 +1,8 @@
 
-using AutoMapper;
 using EssenceAPI.Data;
+using EssenceAPI.DTO;
 using EssenceAPI.Models;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 
 namespace EssenceAPI.Services
@@ -41,7 +42,12 @@ namespace EssenceAPI.Services
         public async Task<List<Sneaker>> GetAllSneakers()
         {
             var sneakers = await _context.Sneakers.ToListAsync();
-            
+
+            return sneakers;
+        }
+        public async Task<List<Sneaker>> GetBrand([FromQuery] string brand)
+        {
+            var sneakers = await _context.Sneakers.Where(s => s.Brand == brand).ToListAsync();
 
             return sneakers;
         }
