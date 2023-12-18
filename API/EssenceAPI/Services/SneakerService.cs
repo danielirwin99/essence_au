@@ -45,9 +45,10 @@ namespace EssenceAPI.Services
 
             return sneakers;
         }
-        public async Task<List<Sneaker>> GetBrand([FromQuery] string brand)
+
+        public Task<List<SneakerDto>> GetAllSneakersByBrand(string brand)
         {
-            var sneakers = await _context.Sneakers.Where(s => s.Brand == brand).ToListAsync();
+            var sneakers = await _context.Sneakers.Where(s => s.Brand == brand).ToListAsync();    
 
             return sneakers;
         }
@@ -98,6 +99,7 @@ namespace EssenceAPI.Services
 
             return await _context.Sneakers.ToListAsync();
         }
+
 
 
     }

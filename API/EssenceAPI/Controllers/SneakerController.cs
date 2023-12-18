@@ -30,17 +30,7 @@ namespace EssenceAPI.Controllers
             return Ok(sneakersToReturn);
 
         }
-        [HttpGet]
-        public async Task<ActionResult<List<Sneaker>>> GetByBrand([FromQuery] string brand)
-        {
-            var result = await _sneakerService.GetBrand(brand);
 
-            var sneakersToReturn = _mapper.Map<List<Sneaker>>(result);
-
-
-            return Ok(sneakersToReturn);
-
-        }
         [HttpGet("{id}")]
         public async Task<ActionResult<Sneaker>> GetSneaker(int id)
         {
